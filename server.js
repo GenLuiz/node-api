@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const requireDir = require('require-dir');
 const app = express();
 
-mongoose.connect('mongodb://localhost:27017/nodeapi', {useNewUrlParser: true});
+mongoose.connect('mongodb://10.157.138.65:27017/nodeapi', {useNewUrlParser: true});
 
 requireDir('./src/models');
 
