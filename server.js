@@ -12,4 +12,3 @@ requireDir('./src/models');
 app.use('/api', require('./src/routes'));
 
 app.listen(3001);
-
